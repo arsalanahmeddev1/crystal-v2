@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  p {
+    @apply font-inter text-[18px] text-center sm:text-start;
+  }
+
+  .primary-nav {
+    @apply rounded-[60px] py-[18px] 2xl:px-[40px] px-[26px];
+  }
+
+  .primary-nav,
+  .btn-blur {
+    @apply !bg-[#FFFFFF1A];
+  }
+
+  .primary-nav a {
+    @apply text-white font-inter 3xl:text-[17px] text-[15px]
+  }
+
+  .container-custom,
+  .container {
+    @apply mx-auto;
+  }
+
+  .btn-primary {
+    @apply bg-white text-lightBlack;
+  }
+
+  .btn-secondry {
+    @apply bg-transparent text-white;
+  }
+
+  .btn {
+    @apply rounded-[60px] font-bold py-[15px] 2xl:px-[30px] px-[20px] text-[14px] 2xl:text-[16px]
+  }
+
+  .btn-transparent {
+    @apply bg-transparent border border-white text-white;
+  }
+
+  .text-20-s-bold {
+    @apply font-semibold text-[20px];
+  }
+
+  .text-40-bold {
+    @apply font-bold text-[40px];
+  }
+
+  .training-list li {
+    @apply flex flex-wrap lg:flex-nowrap gap-[20px] 3xl:flex-nowrap justify-center sm:justify-start text-center sm:text-start
+  }
+
+  .training-list-icon {
+    @apply bg-[#EDEDED] aspect-square overflow-hidden rounded-full w-[90px] h-[90px] lg:h-[80px] lg:w-[80px] 3xl:w-[90px] 3xl:h-[90px] flex items-center justify-center
+  }
+
+  .training-list-icon img {
+    @apply lg:h-[30px] lg:w-[30px] 3xl:w-[38px] 3xl:h-[38px]
+  }
+
+  .training-sec .traning-center-img {
+    @apply max-w-[560px] max-h-[240px] md:max-w-[440px] lg:max-w-[430px] xl:max-h-[370px] xl:max-w-[560px] 2xl:max-w-[710px] 2xl:max-h-[500px]
+  }
+
+  .training-list h3 {
+    @apply pb-[14px]
+  }
+
+  .achievment-sec h3 {
+    @apply mb-[10px]
+  }
+
+  .card-light {
+    @apply bg-white rounded-[20px] p-[40px]
+  }
+
+  .social-icons li a {
+    @apply flex items-center justify-center bg-lightBlack rounded-full text-white w-[33px] h-[33px] text-[14px]
+  }
+
+  .footer-nav li {
+    @apply mb-[20px]
+  }
+
+  .footer-nav a {
+    @apply font-inter
+  }
+
+  .hd-sm {
+    @apply text-lightBlack font-semibold text-[20px] uppercase
+  }
+
+  .hd-medium {
+    @apply text-lightBlack font-bold text-[30px] lg:text-[40px] italic uppercase text-center lg:text-start
+  }
+
+  .blog-card-bottom {
+    @apply p-[30px] lg:p-[20px] 3xl:p-[40px]
+  }
+
+  .training-sec h4 {
+    @apply text-[30px] uppercase pb-[40px] lg:pb-[20px] 3xl:pb-[60px] lg:text-[30px] italic font-bold 3xl:text-[40px] text-center lg:text-start
+  }
+
+  .explore-sec .explore-card-wrapper {
+    @apply max-w-full w-full xxl:max-w-[425px] 3xl:max-w-[402px] md:w-1/2 lg:w-[calc(33.33%-14px)] 3xl:w-1/4
+  }
+
+  /* .explore-sec .explore-card-container {
+    @apply flex flex-col md:flex-row justify-between lg:justify-center 3xl:justify-between flex-wrap items-center lg:gap-[10px] gap-y-[20px]
+  } */
+
+  .hero-banner {
+    @apply pt-[308px] pb-[140px] xxl:pt-[308px] xxl:pb-[140px] lg:pt-[228px]
+  }
+
+  /* .about-banner {
+    @apply  
+   } */
+  .inner-banner {
+    @apply justify-center items-center flex text-center py-[300px]
+  }
+
+  .mini-banner {
+    @apply pt-[300px] pb-[200px];
+  }
+
+  .inner-banner h1 {
+    @apply uppercase text-white text-[80px] italic font-bold
+  }
+
+  .inner-banner {
+    @apply bg-cover bg-no-repeat
+  }
+
+  .video-card-wrapper {
+    @apply h-[440px] relative
+  }
+
+  .video-card-wrapper .card-img-top {
+    @apply h-full object-cover rounded-[30px] w-full
+  }
+
+  /* Dental Assistant {
+    @apply  
+   } */
+  .section-img-wrapper {
+    @apply max-w-[100%] 2xl:max-h-[80%] ml-auto;
+  }
+
+  .program-outline-sec h4 {
+    @apply pb-[20px];
+  }
+
+  .program-card ul {
+    @apply font-semibold text-[18px];
+  }
+
+  .program-card .check-list li {
+    @apply font-kod;
+  }
+
+  .rounded-anchor {
+    @apply bg-white px-5 py-3 rounded-full;
+  }
+
+  .program-cards-container {
+    @apply grid grid-cols-2 gap-10 pt-24;
+  }
+
+  .program-card {
+    @apply col-span-2 lg:col-span-1;
+  }
+
+  .dental-info-cards {
+    @apply grid grid-cols-3 gap-10 pt-24;
+  }
+
+  .dental-info-cards .card-light {
+    @apply col-span-3 md:col-span-2 xl:col-span-1;
+  }
+
+  .timetable .timetable-card {
+    @apply col-span-full sm:col-span-6 lg:col-span-4 xl:col-span-3;
+  }
+
+  .schedule-btn {
+    @apply px-5 py-2;
+  }
+
+  .appointment-form-wrapper h4 {
+    @apply text-center;
+  }
+
+  .appointment-form-wrapper input,
+  .appointment-form-wrapper select {
+    @apply font-inter w-full p-4 px-8 font-normal border rounded-full bg-[#EDEDED] text-lightBlack  border-none outline-none placeholder:text-lightBlack placeholder:font-normal;
+  }
+
+  h5.sub-heading {
+    @apply text-[25px] uppercase italic font-bold text-center lg:text-start;
+  }
+
+  .payment-card {
+    @apply h-full;
+  }
+
+  .payment-card h5 {
+    @apply md:pr-16;
+  }
+
+  .payment-card p {
+    @apply text-black;
+  }
+
+  .contact-container {
+    @apply grid grid-cols-2;
+  }
+
+  .contact-info {
+    @apply col-span-2 lg:col-span-1;
+  }
+  .list-disc {
+    @apply pl-8 
+  }
+  .list-disc li {
+    @apply  text-lightBlack  font-inter text-[18px]
+  }
+  .inner-banner.hd-reduce-banner h1 {
+    @apply text-[47px] 3xl:text-[60px]
+  }
+  .select-icon i {
+    @apply absolute right-5 top-1/2 transform -translate-y-1/2 text-lightBlack
+  }
+  .gallery-wrapper img {
+    @apply  max-h-[410px] aspect-[2/1] object-cover
+  }
+  .timetable-card .card-light {
+    @apply h-full
+  }
+  .achievment-sec .hd-medium {
+    @apply text-center
+  }
+  .program-list  {
+    @apply pl-[30px]
+  }
+  .program-list li {
+    @apply list-disc pl-0 font-inter 
+  }
+  .program-list li b {
+    @apply text-[16px]
+  }
+  .program-card ul li span {
+    @apply font-bold
+  }
+  .program-card ul li {
+    @apply font-light
+  }
+  .timetable-card h5 {
+    @apply text-[28px] !mt-[10px]
+  }
+  .timetable-card h5 span {
+    @apply font-bold
+  }
+  .timetable-card .program-list {
+    @apply !mt-[10px]
+  }
+  .timetable-card .hd-sm {
+    @apply font-bold
+  }
+  .slick-arrows-wrapper {
+    @apply flex items-center justify-between absolute w-full top-[50%] z-[1]
+  }
+  .slick-arrow {
+    @apply  w-[30px] h-[30px] rounded-full  flex items-center justify-center
+  }
+  .explore-card-wrapper p {
+    @apply text-start
+  }
+  .explore-card-wrapper,
+  .blog-card-wrapper {
+    @apply h-full
+  }
+  
+
+}

@@ -1,0 +1,757 @@
+/**===================== 1.2 Mixin CSS start ==========================**/
+/**===================== 1.2 Mixin CSS end ==========================**/
+/**===================== 3.12 Dashboard_4 CSS Start ==========================**/
+.widget-hover:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.currency-widget .currency-icon-widget {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: inset 2.66667px -2.66667px 2.66667px rgba(194, 128, 49, 0.1), inset -2.66667px 2.66667px 2.66667px rgba(255, 255, 255, 0.1);
+}
+.currency-widget .currency-icon-widget svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+.currency-widget .card {
+  margin-top: 14px;
+}
+.currency-widget .card .card-body {
+  padding: 15px;
+  gap: 10px;
+  justify-content: space-between;
+}
+@media (max-width: 1660px) {
+  .currency-widget .card .card-body {
+    flex-wrap: wrap;
+ }
+}
+@media (max-width: 575px) {
+  .currency-widget .card .card-body {
+    flex-wrap: unset;
+ }
+}
+.currency-widget .card:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.currency-widget h6 {
+  margin-bottom: 0;
+}
+.currency-widget .d-flex {
+  gap: 10px;
+  align-items: center;
+}
+.currency-widget span svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.currency-widget div[class*="bg-light-"] {
+  color: #2f2f3b;
+  padding: 15px;
+  border-radius: 10px;
+  width: 115px;
+}
+@media (max-width: 1660px) and (min-width: 1200px) {
+  .currency-widget div[class*="bg-light-"] {
+    display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .currency-widget div[class*="bg-light-"] {
+    width: 100%;
+ }
+}
+@media (max-width: 575px) {
+  .currency-widget div[class*="bg-light-"] {
+    width: 50%;
+ }
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .currency-widget.widget-currency .card .card-body {
+    flex-wrap: unset;
+ }
+}
+.currency-widget.warning .currency-icon-widget {
+  background-image: linear-gradient(to right, #ffaa05 80%, rgba(255, 170, 5, 0.2));
+}
+.currency-widget.primary .currency-icon-widget {
+  background-image: linear-gradient(to right, #5AA89A 80%, rgba(115, 102, 255, 0.2));
+}
+.currency-widget.success .currency-icon-widget {
+  background-image: linear-gradient(to right, #54ba4a 80%, rgba(84, 186, 74, 0.2));
+}
+@media (max-width: 1399px) {
+  .currency-widget.height-equal {
+    min-height: unset !important;
+ }
+}
+.currency-chart-wrap {
+  margin: -28px -10px -20px -20px;
+}
+@media (max-width: 575px) {
+  .currency-chart-wrap {
+    width: 50%;
+ }
+}
+.currency-chart-wrap .apexcharts-canvas .apexcharts-tooltip-text-y-label {
+  display: none;
+}
+.transaction-card .header-top {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.crypto-main-card {
+  background-image: linear-gradient(to bottom right, #5f3deb, #ad79ff);
+  color: #fff;
+}
+@media (max-width: 1199px) {
+  .crypto-main-card .card-body {
+    padding: 20px;
+ }
+}
+.crypto-main-card .btn {
+  padding: 8px 20px;
+}
+@media (max-width: 1660px) {
+  .crypto-main-card .btn {
+    padding: 8px 15px;
+ }
+}
+.crypto-main-card .deposit-wrap > div {
+  width: 65%;
+}
+@media (max-width: 1660px) {
+  .crypto-main-card .deposit-wrap > div {
+    width: 90%;
+ }
+}
+@media (max-width: 1536px) {
+  .crypto-main-card .deposit-wrap > div {
+    width: 100%;
+ }
+}
+@media (max-width: 1399px) {
+  .crypto-main-card .deposit-wrap > div {
+    width: 75%;
+ }
+}
+@media (max-width: 1199px) {
+  .crypto-main-card .deposit-wrap > div {
+    width: 95%;
+ }
+}
+.crypto-main-card .deposit-wrap > div h5 {
+  color: #fff;
+}
+@media (max-width: 1660px) {
+  .crypto-main-card .deposit-wrap > div h5 {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+ }
+}
+@media (max-width: 767px) {
+  .crypto-main-card .deposit-wrap > div h5 {
+    -webkit-line-clamp: 1;
+ }
+}
+.crypto-main-card .deposit-wrap > div p {
+  color: #fff;
+}
+.crypto-main-card .deposit-wrap img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 48%;
+  animation: bounce-effect 5s infinite ease-in;
+}
+[dir="rtl"] .crypto-main-card .deposit-wrap img {
+  right: unset;
+  left: 10px;
+  transform: scaleX(-1);
+}
+@media (max-width: 1660px) and (min-width: 1400px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 44%;
+ }
+}
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 52%;
+ }
+}
+@media (max-width: 1199px) and (min-width: 1081px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 30%;
+ }
+}
+@media (max-width: 1080px) and (min-width: 768px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 26%;
+ }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 33%;
+ }
+}
+@media (max-width: 575px) and (min-width: 401px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 26%;
+ }
+}
+@media (max-width: 400px) {
+  .crypto-main-card .deposit-wrap img {
+    width: 35%;
+ }
+}
+.portfolio-card .dropdown-toggle {
+  width: 80px;
+}
+.btn-white {
+  color: #5AA89A;
+  background-color: #fff;
+}
+.btn-white:hover, .btn-white:active {
+  color: #5AA89A;
+  background-color: #fff;
+  border-color: #fff !important;
+}
+.radial-progress-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+@media (max-width: 1199px) {
+  .radial-progress-card.card-body {
+    padding: 30px 20px;
+ }
+}
+.radial-progress-card p {
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.radial-progress-card h6 {
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+}
+.radial-progress-card .sale-details {
+  margin: 10px 0;
+}
+.radial-progress-card .sale-details svg {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.radial-progress-card .radial-chart-wrap {
+  width: 110px;
+  margin-right: -25px;
+}
+[dir="rtl"] .radial-progress-card .radial-chart-wrap {
+  margin-right: unset;
+  margin-left: -25px;
+}
+@media (max-width: 1820px) {
+  .radial-progress-card .radial-chart-wrap {
+    margin-right: -12px;
+ }
+  [dir="rtl"] .radial-progress-card .radial-chart-wrap {
+    margin-left: -12px;
+ }
+}
+.radial-progress-card .radial-chart-wrap .apexcharts-canvas .apexcharts-datalabel-label {
+  display: none;
+}
+.transaction-table.recent-table table thead tr th:first-child, .transaction-table.recent-table table tbody tr th:first-child, .transaction-table.recent-table table thead tr td:first-child, .transaction-table.recent-table table tbody tr td:first-child {
+  padding-left: 20px;
+}
+@media (max-width: 1455px) {
+  .transaction-table.recent-table table thead tr th:first-child svg, .transaction-table.recent-table table tbody tr th:first-child svg, .transaction-table.recent-table table thead tr td:first-child svg, .transaction-table.recent-table table tbody tr td:first-child svg {
+    width: 16px;
+    height: 16px;
+ }
+}
+.transaction-table.recent-table table thead tr th:last-child, .transaction-table.recent-table table tbody tr th:last-child, .transaction-table.recent-table table thead tr td:last-child, .transaction-table.recent-table table tbody tr td:last-child {
+  padding-right: 20px;
+}
+.transaction-table.recent-table table tr th, .transaction-table.recent-table table tr td {
+  min-width: auto;
+}
+.transaction-table.recent-table table tr th:first-child, .transaction-table.recent-table table tr td:first-child {
+  min-width: unset;
+}
+@media (max-width: 1458px) {
+  .transaction-table.recent-table table tr th:first-child, .transaction-table.recent-table table tr td:first-child {
+    min-width: 114px;
+ }
+}
+.transaction-table.recent-table table tr th:last-child, .transaction-table.recent-table table tr td:last-child {
+  text-align: right;
+  min-width: 60px;
+}
+.transaction-table.recent-table table tr:last-child td {
+  border: unset;
+  padding-bottom: 0;
+}
+.transaction-table.recent-table table tr, .transaction-table.recent-table table td {
+  border-style: dashed;
+}
+.custom-tab {
+  background: var(--light2);
+  padding: 4px;
+  border-radius: 5px;
+}
+.custom-tab.nav-tabs {
+  border: none;
+}
+.custom-tab.nav-tabs .nav-link {
+  border: none;
+  padding: 6px 12px;
+  color: var(--chart-text-color);
+}
+.custom-tab.nav-tabs .nav-link.active {
+  color: var(--theme-default);
+}
+.market-chart-container {
+  margin: -24px 0 -24px -15px;
+}
+[dir="rtl"] .market-chart-container {
+  margin: -24px -15px -24px 0;
+}
+@media (max-width: 575px) {
+  .market-chart-container {
+    margin-bottom: 0;
+ }
+}
+.market-card .balance-card {
+  padding: 10px;
+}
+@media (max-width: 575px) {
+  .market-card .custom-tab {
+    display: none;
+ }
+}
+.currency-icon {
+  width: 34px;
+  height: 34px;
+  background-color: var(--light2);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.currency-icon.warning svg {
+  fill: #ffaa05;
+}
+.currency-icon.success svg {
+  fill: #54ba4a;
+}
+.currency-icon.primary svg {
+  fill: #5AA89A;
+}
+.currency-icon.secondary svg {
+  fill: #ff3364;
+}
+.currency-icon.dark-green svg {
+  fill: #1ba27a;
+}
+.currency-icon.light-blue svg {
+  fill: #038de7;
+}
+.recent-table tr:hover td:first-child h6 {
+  color: var(--theme-default);
+}
+.recent-table tr:hover .border-icon .social-circle {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+.recent-table tr:hover .currency-icon svg {
+  animation: tada 1.5s ease infinite;
+}
+.recent-table tr:hover .badge-light-primary {
+  background-color: var(--theme-default);
+  color: #fff;
+}
+.currency-table.recent-table table .change-currency svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: sub;
+}
+.currency-table.recent-table table thead tr th, .currency-table.recent-table table tbody tr th, .currency-table.recent-table table thead tr td, .currency-table.recent-table table tbody tr td {
+  min-width: auto;
+  color: var(--body-font-color);
+}
+.currency-table.recent-table table thead tr th:first-child, .currency-table.recent-table table tbody tr th:first-child, .currency-table.recent-table table thead tr td:first-child, .currency-table.recent-table table tbody tr td:first-child {
+  padding-left: 20px;
+}
+.currency-table.recent-table table thead tr th:last-child, .currency-table.recent-table table tbody tr th:last-child, .currency-table.recent-table table thead tr td:last-child, .currency-table.recent-table table tbody tr td:last-child {
+  padding-right: 20px;
+}
+.currency-table.recent-table table thead tr th:nth-child(2), .currency-table.recent-table table tbody tr th:nth-child(2), .currency-table.recent-table table thead tr td:nth-child(2), .currency-table.recent-table table tbody tr td:nth-child(2), .currency-table.recent-table table thead tr th:nth-child(3), .currency-table.recent-table table tbody tr th:nth-child(3), .currency-table.recent-table table thead tr td:nth-child(3), .currency-table.recent-table table tbody tr td:nth-child(3) {
+  min-width: 87px;
+}
+.currency-table.recent-table table thead tr th:nth-child(4), .currency-table.recent-table table tbody tr th:nth-child(4), .currency-table.recent-table table thead tr td:nth-child(4), .currency-table.recent-table table tbody tr td:nth-child(4) {
+  min-width: 98px;
+}
+.currency-table.recent-table table thead tr th:nth-child(5), .currency-table.recent-table table tbody tr th:nth-child(5), .currency-table.recent-table table thead tr td:nth-child(5), .currency-table.recent-table table tbody tr td:nth-child(5) {
+  min-width: 100px;
+}
+.currency-table.recent-table table thead thead tr th, .currency-table.recent-table table tbody thead tr th {
+  color: #52526c;
+}
+@media (max-width: 1275px) and (min-width: 1200px) {
+  .currency-table.recent-table.average-sale.table-responsive div.dt-container .dt-layout-row .dt-layout-cell .dt-search {
+    display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .currency-table.recent-table.average-sale.table-responsive div.dt-container .dt-layout-row .dt-layout-cell .dt-search {
+    position: relative;
+    top: 4px;
+    left: 20px;
+    margin-bottom: 20px;
+ }
+}
+@media (max-width: 1622px) {
+  .currency-table.recent-table.average-sale.table-responsive div.dt-container .dt-layout-row:last-child {
+    flex-direction: column;
+ }
+}
+.currency-table.recent-table.average-sale.table-responsive thead tr th, .currency-table.recent-table.average-sale.table-responsive tbody tr th, .currency-table.recent-table.average-sale.table-responsive thead tr td, .currency-table.recent-table.average-sale.table-responsive tbody tr td {
+  min-width: auto;
+  color: var(--body-font-color);
+}
+.currency-table.recent-table.average-sale.table-responsive thead tr th:first-child, .currency-table.recent-table.average-sale.table-responsive tbody tr th:first-child, .currency-table.recent-table.average-sale.table-responsive thead tr td:first-child, .currency-table.recent-table.average-sale.table-responsive tbody tr td:first-child {
+  padding-left: 20px;
+}
+.currency-table.recent-table.average-sale.table-responsive thead tr th:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr th:last-child, .currency-table.recent-table.average-sale.table-responsive thead tr td:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr td:last-child {
+  padding-right: 20px;
+}
+@media (max-width: 1316px) and (min-width: 1200px) {
+  .currency-table.recent-table.average-sale.table-responsive thead tr th:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr th:last-child, .currency-table.recent-table.average-sale.table-responsive thead tr td:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr td:last-child {
+    display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .currency-table.recent-table.average-sale.table-responsive thead tr th:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr th:last-child, .currency-table.recent-table.average-sale.table-responsive thead tr td:last-child, .currency-table.recent-table.average-sale.table-responsive tbody tr td:last-child {
+    min-width: 147px;
+ }
+}
+@media (max-width: 1316px) and (min-width: 768px) {
+  .currency-table.recent-table.average-sale.table-responsive thead tr th:nth-child(3), .currency-table.recent-table.average-sale.table-responsive tbody tr th:nth-child(3), .currency-table.recent-table.average-sale.table-responsive thead tr td:nth-child(3), .currency-table.recent-table.average-sale.table-responsive tbody tr td:nth-child(3) {
+    padding-right: 20px;
+ }
+}
+@media (max-width: 1465px) and (min-width: 768px) {
+  .currency-table.recent-table.average-sale.table-responsive thead tr th:nth-child(4), .currency-table.recent-table.average-sale.table-responsive tbody tr th:nth-child(4), .currency-table.recent-table.average-sale.table-responsive thead tr td:nth-child(4), .currency-table.recent-table.average-sale.table-responsive tbody tr td:nth-child(4) {
+    display: none;
+ }
+}
+@media (max-width: 767px) {
+  .currency-table.recent-table.average-sale.table-responsive thead tr th:nth-child(2), .currency-table.recent-table.average-sale.table-responsive tbody tr th:nth-child(2), .currency-table.recent-table.average-sale.table-responsive thead tr td:nth-child(2), .currency-table.recent-table.average-sale.table-responsive tbody tr td:nth-child(2), .currency-table.recent-table.average-sale.table-responsive thead tr th:nth-child(3), .currency-table.recent-table.average-sale.table-responsive tbody tr th:nth-child(3), .currency-table.recent-table.average-sale.table-responsive thead tr td:nth-child(3), .currency-table.recent-table.average-sale.table-responsive tbody tr td:nth-child(3), .currency-table.recent-table.average-sale.table-responsive thead tr th:nth-child(4), .currency-table.recent-table.average-sale.table-responsive tbody tr th:nth-child(4), .currency-table.recent-table.average-sale.table-responsive thead tr td:nth-child(4), .currency-table.recent-table.average-sale.table-responsive tbody tr td:nth-child(4) {
+    min-width: 85px;
+ }
+}
+.currency-table.recent-table.average-sale.table-responsive thead tr th a, .currency-table.recent-table.average-sale.table-responsive tbody tr th a, .currency-table.recent-table.average-sale.table-responsive thead tr td a, .currency-table.recent-table.average-sale.table-responsive tbody tr td a {
+  color: var(--body-font-color);
+}
+.currency-table.recent-table.average-sale.table-responsive thead tr th .currency-icon svg, .currency-table.recent-table.average-sale.table-responsive tbody tr th .currency-icon svg, .currency-table.recent-table.average-sale.table-responsive thead tr td .currency-icon svg, .currency-table.recent-table.average-sale.table-responsive tbody tr td .currency-icon svg {
+  fill: var(--white);
+}
+@media (max-width: 1199px) {
+  .currency-table.recent-table.performer-table.table-responsive div.dt-container .dt-layout-row .dt-layout-cell .dt-search {
+    position: relative;
+    top: 4px;
+    left: 20px;
+    margin-bottom: 20px;
+ }
+}
+@media (max-width: 1622px) {
+  .currency-table.recent-table.performer-table.table-responsive div.dt-container .dt-layout-row:last-child {
+    flex-direction: column;
+ }
+}
+.currency-table.recent-table.performer-table.table-responsive thead tr th, .currency-table.recent-table.performer-table.table-responsive tbody tr th, .currency-table.recent-table.performer-table.table-responsive thead tr td, .currency-table.recent-table.performer-table.table-responsive tbody tr td {
+  min-width: auto;
+  color: var(--body-font-color);
+}
+.currency-table.recent-table.performer-table.table-responsive thead tr th:first-child, .currency-table.recent-table.performer-table.table-responsive tbody tr th:first-child, .currency-table.recent-table.performer-table.table-responsive thead tr td:first-child, .currency-table.recent-table.performer-table.table-responsive tbody tr td:first-child {
+  padding-left: 20px;
+}
+.currency-table.recent-table.performer-table.table-responsive thead tr th:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr th:last-child, .currency-table.recent-table.performer-table.table-responsive thead tr td:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr td:last-child {
+  padding-right: 20px;
+}
+@media (max-width: 1696px) and (min-width: 1200px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr th:last-child, .currency-table.recent-table.performer-table.table-responsive thead tr td:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr td:last-child {
+    display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:nth-child(2), .currency-table.recent-table.performer-table.table-responsive tbody tr th:nth-child(2), .currency-table.recent-table.performer-table.table-responsive thead tr td:nth-child(2), .currency-table.recent-table.performer-table.table-responsive tbody tr td:nth-child(2) {
+    min-width: 128px;
+ }
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr th:last-child, .currency-table.recent-table.performer-table.table-responsive thead tr td:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr td:last-child {
+    min-width: 108px;
+ }
+}
+@media (max-width: 1303px) and (min-width: 768px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:nth-child(3), .currency-table.recent-table.performer-table.table-responsive tbody tr th:nth-child(3), .currency-table.recent-table.performer-table.table-responsive thead tr td:nth-child(3), .currency-table.recent-table.performer-table.table-responsive tbody tr td:nth-child(3) {
+    display: none;
+ }
+}
+@media (max-width: 1696px) and (min-width: 1200px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:nth-child(5), .currency-table.recent-table.performer-table.table-responsive tbody tr th:nth-child(5), .currency-table.recent-table.performer-table.table-responsive thead tr td:nth-child(5), .currency-table.recent-table.performer-table.table-responsive tbody tr td:nth-child(5) {
+    padding-right: 20px;
+ }
+}
+@media (max-width: 1470px) and (min-width: 1200px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr th:nth-child(4), .currency-table.recent-table.performer-table.table-responsive tbody tr th:nth-child(4), .currency-table.recent-table.performer-table.table-responsive thead tr td:nth-child(4), .currency-table.recent-table.performer-table.table-responsive tbody tr td:nth-child(4) {
+    display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .currency-table.recent-table.performer-table.table-responsive thead tr:nth-child(2), .currency-table.recent-table.performer-table.table-responsive tbody tr:nth-child(2) {
+    min-width: 137px;
+ }
+  .currency-table.recent-table.performer-table.table-responsive thead tr:nth-child(5), .currency-table.recent-table.performer-table.table-responsive tbody tr:nth-child(5) {
+    min-width: 98px;
+ }
+  .currency-table.recent-table.performer-table.table-responsive thead tr:last-child, .currency-table.recent-table.performer-table.table-responsive tbody tr:last-child {
+    min-width: 126px;
+ }
+}
+.currency-table.recent-table.performer-table.table-responsive thead tr a, .currency-table.recent-table.performer-table.table-responsive tbody tr a {
+  color: var(--body-font-color);
+}
+.currency-table.recent-table.performer-table.table-responsive thead tr svg, .currency-table.recent-table.performer-table.table-responsive tbody tr svg {
+  fill: var(--white);
+}
+select.crypto-select {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  right: 7px;
+  width: 62px;
+  background-position: right 0.25rem center;
+  padding: 8px;
+  border: none;
+  font-weight: 500;
+  background-size: 8px;
+}
+[dir="rtl"] select.crypto-select {
+  right: unset;
+  left: 7px;
+}
+select.crypto-select.warning {
+  background-color: rgba(255, 170, 5, 0.1) !important;
+  color: #ffaa05 !important;
+}
+select.crypto-select.primary {
+  background-color: rgba(115, 102, 255, 0.1) !important;
+  color: #5AA89A !important;
+}
+.crypto-form div select.form-select {
+  border: unset;
+}
+.crypto-form input::-webkit-outer-spin-button, .crypto-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.crypto-form input[type=number] {
+  -moz-appearance: textfield;
+}
+.balance-box {
+  text-align: center;
+  background-image: url(../images/dashboard-4/bg-balance.png);
+  background-position: right;
+  background-size: cover;
+}
+.balance-box .balance-img {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid var(--chart-border);
+  border-left-color: #54ba4a;
+  border-bottom-color: #54ba4a;
+  border-radius: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+.balance-box .balance-img img {
+  background-color: var(--balance-profile-bg);
+  border-radius: 100%;
+}
+.balance-box .balance-img .edit-icon {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--white);
+  background-color: #dfdff4;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+}
+.balance-box .balance-img .edit-icon svg {
+  width: 11px;
+  height: 11px;
+  fill: #5AA89A;
+}
+.balance-profile ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 16px;
+}
+@media (max-width: 1660px) {
+  .balance-profile ul {
+    gap: 25px;
+ }
+}
+.balance-profile ul li {
+  position: relative;
+}
+.balance-profile ul li + li::before {
+  position: absolute;
+  content: '';
+  left: -25px;
+  top: 50%;
+  height: 40px;
+  transform: translateY(-50%);
+  border: 1px dashed var(--recent-dashed-border);
+}
+[dir="rtl"] .balance-profile ul li + li::before {
+  left: unset;
+  right: -25px;
+}
+@media (max-width: 1660px) {
+  .balance-profile ul li + li::before {
+    left: -16px;
+ }
+  [dir="rtl"] .balance-profile ul li + li::before {
+    right: -16px;
+ }
+}
+@media (max-width: 1399px) {
+  .activity-card .appointment-table {
+    height: 180px;
+ }
+}
+@media (max-width: 575px) {
+  .activity-card .appointment-table {
+    height: unset;
+ }
+}
+.activity-card .appointment-table tr td:nth-child(2) {
+  min-width: 99px;
+}
+.balance-item {
+  display: flex;
+  gap: 10px;
+}
+.balance-item .balance-icon-wrap {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media (max-width: 1660px) {
+  .balance-item .balance-icon-wrap {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    border-radius: 8px;
+ }
+}
+.balance-item .balance-icon-wrap .balance-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+@media (max-width: 1660px) {
+  .balance-item .balance-icon-wrap .balance-icon {
+    width: 14px;
+    height: 14px;
+ }
+}
+.balance-item .balance-icon-wrap .balance-icon svg {
+  color: #fff;
+  width: 14px;
+  height: 14px;
+}
+@media (max-width: 1660px) {
+  .balance-item .balance-icon-wrap .balance-icon svg {
+    width: 12px;
+    height: 12px;
+    vertical-align: 2px;
+ }
+}
+.balance-item .badge {
+  padding: 8px 10px;
+}
+.balance-item.danger .balance-icon-wrap {
+  background-color: rgba(252, 68, 56, 0.1);
+}
+.balance-item.danger .balance-icon-wrap .balance-icon {
+  background-color: #fc4438;
+}
+.balance-item.success .balance-icon-wrap {
+  background-color: rgba(84, 186, 74, 0.1);
+}
+.balance-item.success .balance-icon-wrap .balance-icon {
+  background-color: #54ba4a;
+}
+.portfolio-chart-container {
+  margin-top: -56px;
+}
+@media (max-width: 1399px) {
+  .portfolio-chart-container {
+    margin-top: -20px;
+ }
+}
+.portfolio-table .status {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.portfolio-table table tr, .portfolio-table table td {
+  border-style: dashed;
+}
+@media (max-width: 1755px) {
+  .portfolio-table table tr td:first-child, .portfolio-table table tr th:first-child {
+    min-width: 100px;
+ }
+}
+@media (max-width: 1755px) {
+  .portfolio-table table tr td:last-child, .portfolio-table table tr th:last-child {
+    min-width: 88px;
+ }
+}
+.portfolio-table table tr:last-child td {
+  border: unset;
+  padding-bottom: 0;
+}
+/**===================== 3.12 Dashboard_4 CSS Ends ==========================**/
